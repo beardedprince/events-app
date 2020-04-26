@@ -1,6 +1,8 @@
 const express = require('express');
 const jwt = require("jsonwebtoken");
 const router = express.Router();
+
+
 const User = require('../model/model')
 const mongoose = require('mongoose');
 const db = "mongodb+srv://ollie:olliedb@cluster0-2mplc.mongodb.net/event_db"
